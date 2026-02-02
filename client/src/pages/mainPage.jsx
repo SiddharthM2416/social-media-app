@@ -65,7 +65,7 @@ const SuggestionItem = ({ name, handle, imageUrl }) => (
   </div>
 );
 
-const App = () => {
+const MainPage = () => {
   const stories = [
     { name: 'Sanya', imageUrl: 'https://csspicker.dev/api/image/?q=woman+portrait&image_type=photo' },
     { name: 'Rahul', imageUrl: 'https://csspicker.dev/api/image/?q=man+portrait&image_type=photo' },
@@ -181,4 +181,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MainPage;
